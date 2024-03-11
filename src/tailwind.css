@@ -22,7 +22,8 @@
   border-radius: 4px; /* Border radius */
 }
 
-#medsInfoForm button {
+#medsInfoForm button,
+#signUpForm button {
   background-color: #4c874a; /* Primary color */
   color: #fcf9ed; /* Text color */
   padding: 0.5rem 1rem;
