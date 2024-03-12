@@ -4,6 +4,15 @@
 
 /* tailwind.css */
 
+.submitButton {
+  background-color: #4c874a; /* Primary color */
+  color: #fcf9ed; /* Text color */
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px; /* Border radius */
+  cursor: pointer;
+}
+
 #medsInfoForm {
   max-width: 400px; /* Adjust as needed */
   margin: 0 auto; /* Center the form */
@@ -14,7 +23,8 @@
   margin-bottom: 0.5rem;
 }
 
-#medsInfoForm input {
+#medsInfoForm input,
+#signUpForm input {
   width: 100%;
   padding: 0.5rem;
   margin-bottom: 1rem;
