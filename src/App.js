@@ -12,8 +12,6 @@ function App() {
   return (
     <div className="App">
       <SignUpForm />
-      <MedInputForm />
-      <TakeMedsRemindersForm />
       <button onClick={notify}>Notify !</button>
       <ToastContainer />
     </div>
