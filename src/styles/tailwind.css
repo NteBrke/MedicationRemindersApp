@@ -71,3 +71,74 @@ button {
   border-radius: 4px; /* Border radius */
   cursor: pointer;
 }
+
+.landing-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 960px; /* Adjust the max-width as needed */
+  padding: 2rem;
+  background-image: url(./src/
+assets/images/pills-reminder-hero.jpg);
+}
+
+.left-section {
+  flex: 2;
+  margin-right: 2rem;
+}
+
+.right-section {
+  flex: 1;
+}
+
+.firstHeader {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+.landingPageFeatures {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.landingPageFeatures li {
+  margin-bottom: 1rem;
+}
+
+.langingPageFeatures li::before {
+  content: "\1F48A";
+  display: inline-block;
+  width: 1.5rem;
+  height: 1.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.ctaText {
+  margin-bottom: 1.5rem;
+}
+
+.buttons a {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  color: #ffffff;
+  background: linear-gradient(
+    to right,
+    #4c874a,
+    #306043
+  ); /* Adjust gradient colors as needed */
+  transition: background-color 0.3s ease;
+}
+
+.buttons a:hover {
+  background-color: #3a6a37; /* Adjust hover color as needed */
+}

@@ -1,5 +1,6 @@
 import "./styles/App.css";
-import MedInputForm from "./components/MedicationForm";
+import LandingPage from "./components/LandingPage";
+/* import MedInputForm from "./components/MedicationForm"; */
 /* import TakeMedsRemindersForm from "./components/Reminders";
 import { ToastContainer, toast } from "react-toastify"; */
 
@@ -11,7 +12,7 @@ function App() {
 
   return (
     <div className="App">
-      <MedInputForm />
+      <LandingPage />
       {/* <button onClick={notify}>Notify !</button> */}
     </div>
   );
